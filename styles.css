@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    color: black;
+    background: #349808;
+}
+
+
+.header .header-1 .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+}
+
+.header .header-1 .logo i{
+    color:var(--green);
+}
+
+h1 {
+    display: block;
+    font-family: "poppins", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.fa-code {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+p{
+    color: white;
+}
+
+.title{
+    font-weight: 600;
+    color: white;
+    font-size: 54px;
+    padding: 0 16px;
+}
+
+#generate-project {
+    padding: 10px 20px;
+    background: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-family: "poppins" sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.fa-github {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#give-idea:hover {
+    background: white;
+}
+
+#new-project {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+#project-generation span {
+    margin-top: 70px;
+}
+
+ui li {
+    list-style-type: none;
+}
